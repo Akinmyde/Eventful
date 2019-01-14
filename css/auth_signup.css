@@ -9,6 +9,12 @@ html {
   background-size: cover;
 }
 
+.result {
+  color: green;
+  text-align: center;
+  font: 20%;
+}
+
 .form-text {
   color: #fff !important;
   font-size: 1.5rem;

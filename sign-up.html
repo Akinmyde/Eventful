@@ -40,25 +40,26 @@
     <div class="container">
       <form class="signup-form">
         <div class="form-group">
-          <label for="exampleInputEmail1" class="formlabel">Your name</label>
-          <input type="text" class="form-control form-control-lg forminput" id="exampleInputEmail1" aria-describedby="emailHelp"
+          <label for="exampleInputEmail1" class="formlabel">Username</label>
+          <input type="text" class="form-control form-control-lg forminput" id="username" aria-describedby="emailHelp"
             placeholder="johnDoe">
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1" class="formlabel">Email address</label>
-          <input type="email" class="form-control form-control-lg forminput" id="exampleInputEmail1" aria-describedby="emailHelp"
+          <input type="email" class="form-control form-control-lg forminput" id="email" aria-describedby="emailHelp"
             placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1" class="formlabel">Password</label>
-          <input type="password" class="form-control form-control-lg forminput" id="exampleInputPassword1" placeholder="Password">
+          <input type="password" class="form-control form-control-lg forminput" id="password" placeholder="Password">
         </div>
         <div class="form-group form-check">
           <input type="checkbox" class="form-check-input forminput" id="exampleCheck1">
           <label class="form-check-label formcheck" for="exampleCheck1"> Check me out </label>
         </div>
-        <button type="submit" class="btn btn-primary formbtn">Sign Up</button>
+        <div class="result">Created</div>
+        <button type="submit" id="submit" class="btn btn-primary formbtn">Sign Up</button>
       </form>
     </div>
   </section>
@@ -70,6 +71,7 @@
     <p class="mb-0 text-white">Made with <i class="fas fa-heart"></i> @andela bootcamp cycle 40 </p>
   </footer>
   <!-- footer code ends here -->
+  <script src="js/sign-up.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
