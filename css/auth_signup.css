@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+.signup {
+  background-image: linear-gradient(to right bottom, rgba(36, 123, 160, 0.8), rgba(0,0,0,0.9)), url('../images/bg1.jpeg');
+  padding: 10rem 20rem;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-text {
+  color: #fff !important;
+  font-size: 1.5rem;
+}
+
+.signup-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.formlabel {
+  text-align: left;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.forminput {
+  padding:2.5rem 2rem;
+}
+
+.formbtn {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.formcheck {
+  color: #e4e4e4;
+  margin-right: 1rem;
+}
+
+.signuplogin {
+  font-size: 1.6rem;
+}
