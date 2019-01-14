@@ -1,0 +1,12 @@
+.bg-blue{
+  background-color: #247BA0;
+}
+
+footer{
+  background-color: #70C1B3;
+  height: 5vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
