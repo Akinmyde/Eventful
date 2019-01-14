@@ -1,0 +1,7 @@
+.jumbotroncreate {
+  background-image: linear-gradient(to right bottom, rgba(36, 123, 160, 0.8), rgba(0,0,0,0.9)), url('../images/bg1.jpeg');
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  font-weight: bold;
+}
